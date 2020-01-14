@@ -6,7 +6,6 @@ export const setTextFilter = (text = "") => {
     };
 };
 
-
 export const sortByAmount = () => {
     return {
         type: "SORT_BY_AMOUNT"

@@ -1,0 +1,24 @@
+.hero-section-edit-expense {
+  position: relative;
+  padding: 80px 0 120px 0;
+}
+.hero-section-edit-expense:after {
+  content: " ";
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#8669ed),
+    to(#72d7f5)
+  );
+  background-image: linear-gradient(to bottom, #8669ed, #72d7f5);
+  position: absolute;
+  top: -400px;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  border-radius: 0;
+  -webkit-transform: skewY(-3deg);
+  transform: skewY(-3deg);
+}

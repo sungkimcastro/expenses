@@ -1,27 +1,34 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { connect } from "react-redux";
 import { startLogOut } from "./../actions/auth";
 
 export const Header = ({ startLogOut }) => (
-    <header className="header">
-        <div className="content-container">
-            <div className="header__content">
-                <Link className="header__title" to="/dashboard">
-                    <h1>Expensify</h1>
-                </Link>
-                <button className="button--link" onClick={startLogOut}>
-                    Logout
-        </button>
-            </div>
-        </div>
-    </header>
+  <nav className="navbar navbar-expand-lg py-lg-3">
+    <div className="container">
+      <div className="collapse navbar-collapse">
+        <ul className="navbar-nav mr-auto align-items-center">
+          <li className="nav-item mx-lg-1">
+            <NavLink className="nav-link text-light" to="/dashboard">
+              Home
+            </NavLink>
+          </li>
+        </ul>
+      </div>
+      <a
+        className="btn btn-sm btn-light btn-rounded d-none d-lg-inline-flex"
+        onClick={startLogOut}
+      >
+        Logout
+      </a>
+    </div>
+  </nav>
 );
 
 const mapToDispatch = dispatch => {
-    return {
-        startLogOut: () => dispatch(startLogOut())
-    };
+  return {
+    startLogOut: () => dispatch(startLogOut())
+  };
 };
 
 export default connect(undefined, mapToDispatch)(Header);

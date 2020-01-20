@@ -1,0 +1,24 @@
+.hero-section {
+  position: relative;
+  padding: 80px 0 120px 0;
+}
+.hero-section:after {
+  content: " ";
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#8669ed),
+    to(#727cf5)
+  );
+  background-image: linear-gradient(to bottom, #8669ed, #727cf5);
+  position: absolute;
+  top: -400px;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  border-radius: 0;
+  -webkit-transform: skewY(-3deg);
+  transform: skewY(-3deg);
+}

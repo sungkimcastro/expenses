@@ -1,40 +1,31 @@
-.auth-fluid {
+.content-page {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   min-height: 100vh;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
-  background: url("https://images.unsplash.com/photo-1483808161634-29aa1b0e585e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80")
-    center;
-  background-size: cover;
 }
 
-.auth-fluid .auth-fluid-form-box {
-  max-width: 480px;
-  border-radius: 0;
-  z-index: 2;
-  padding: 3rem 2rem;
-  background-color: #fff;
-  position: relative;
-  width: 100%;
+.font-14 {
+  font-size: $font-size-14;
 }
 
-.auth-fluid .auth-fluid-right {
-  padding: 6rem 3rem;
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  position: relative;
+.text_primary {
+  color: $primary-blue;
+}
+
+.btn_success {
+  -webkit-box-shadow: 0 2px 6px 0 $dark-green;
+  box-shadow: 0 2px 6px 0 $dark-green;
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: $green;
+  border-color: $green;
+}
+
+.btn_success:hover {
+  color: #fff;
+  background-color: $dark-greeen-hover-background;
+  border-color: $dark-greeen-hover-border;
+}
+
+.badge_warning_lighten {
+  color: $yellow;
+  background-color: $yellow-background;
 }

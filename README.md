@@ -14,6 +14,7 @@ Build using:
 * Firebase - Realtime database and backend as a service.
 * Authentication - Allows an app to securely save user data.
 * ES6/ES7 - Javascript syntax.
+* Sass - Component styling.
 * Heroku - Cloud Application Platform.
 
 And of course some React Libraries.

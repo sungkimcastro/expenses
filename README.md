@@ -1,7 +1,5 @@
 # Expenses app.
 
-### Tech
-
 * React.
 * Redux.
 * React-Router.

@@ -15,8 +15,6 @@ The expenses app its CRUD expense manager React app.
 * Sass - Component styling.
 * Heroku - Cloud Application Platform.
 
-And of course some React Libraries.
-
 ### Clone the repo
 
 ```bash

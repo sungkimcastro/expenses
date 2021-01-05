@@ -2,6 +2,7 @@
 
 ### Tech
 
+* React.
 * Redux.
 * React-Router.
 * Webpack.

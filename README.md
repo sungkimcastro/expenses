@@ -1,8 +1,5 @@
 # Expenses app.
 
-The expenses app its CRUD expense manager React app.
-
-
 ### Tech
 
 * Redux.

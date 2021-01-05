@@ -5,15 +5,15 @@ The expenses app its CRUD expense manager React app.
 
 ### Tech
 
-* Redux - State Container.
-* React-Router - Dynamic Routing.
-* Webpack - module bundler.
-* Babel - JavaScript compiler.
-* Firebase - Realtime database and backend as a service.
-* Authentication - Allows an app to securely save user data.
-* ES6/ES7 - Javascript syntax.
-* Sass - Component styling.
-* Heroku - Cloud Application Platform.
+* Redux.
+* React-Router.
+* Webpack.
+* Babel.
+* Firebase.
+* Authentication.
+* ES6/ES7.
+* Sass.
+* Heroku.
 
 ### Clone the repo
 

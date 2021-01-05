@@ -5,8 +5,6 @@ The expenses app its CRUD expense manager React app.
 
 ### Tech
 
-Build using:
-
 * Redux - State Container.
 * React-Router - Dynamic Routing.
 * Webpack - module bundler.
